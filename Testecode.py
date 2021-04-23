@@ -1,3 +1,2 @@
-magicians = ['elisa', 'marli']
-for magician in magicians:
-    print(magician.title())
+import os
+os.system("ping www.google.com")

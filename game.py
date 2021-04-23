@@ -6,7 +6,6 @@
 #\033[34;35m
 
 #Importação das bibliotecas
-from posix import sched_param
 from time import sleep
 
 
@@ -29,9 +28,9 @@ while True:
         print("Adeus, talvez nos encontraremos novamente, ou não.")
         break
     elif ordem == "SHOP":
-        print("Bem-Vindo a loja o que desejas comprar?");sleep(2)
-        shop.shop()
-
-    else:
+        print("Bem-Vindo a loja o que desejas comprar?");sleep(2);shop.shop()
+        
+    elif ordem == "CLS":
         os.system("cls")
+    else:
         print("Comando inválido tente novamente, você digitou -> " + ordem)
