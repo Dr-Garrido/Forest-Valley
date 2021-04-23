@@ -11,9 +11,7 @@ from time import sleep
 
 #Atualização de variáveis.
 import help,shop
-savegame = open('savegame.txt', 'wr')
-savegame.write("Nome: ")
-savegame.close()
+
 print("Olá, é a primeira vez que vejo você aqui. Parece que o destino nos uniu.");sleep(0.5)
 nome = input("Já que estamos por aqui. Qual é o seu nome? ");sleep(1)
 print("Parabéns você será o guerriro" + nome + "de agora em diante você terá o cargo de guerreiro erga sua espada e explore o mundo!")
@@ -30,7 +28,7 @@ while True:
         print("Adeus, talvez nos encontraremos novamente, ou não.")
         break
     if ordem == "SHOP":
-        print("Bem-Vindo a loja o que desejas comprar?")
+        print("Bem-Vindo a loja o que desejas comprar?");sleep(2)
         shop.shop()
 
     else:
