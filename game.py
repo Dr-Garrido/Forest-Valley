@@ -1,8 +1,8 @@
-#########################################
-#       Criador:   Каппа                @
-#       Data:      21/04/2021           @
-#       Versão:    0.0.5                @
-#########################################
+########################################$
+#       Criador:   Каппа                $
+#       Data:      21/04/2021           X
+#       Versão:    0.0.8                $
+########################################$
 #\033[34;35m
 
 #Importação das bibliotecas
@@ -14,10 +14,10 @@ import help,shop,os
 
 print("Olá, é a primeira vez que vejo você aqui. Parece que o destino nos uniu.");sleep(0.5)
 nome = input("Já que estamos por aqui. Qual é o seu nome? ");sleep(1)
-print("Parabéns você será o guerriro" + nome + "de agora em diante você terá o cargo de guerreiro erga sua espada e explore o mundo!")
+print("Parabéns você será o guerriro " + nome + " de agora em diante você terá o cargo de guerreiro\n erga sua espada e explore o mundo!")
 print("vamor iniciar as explicações normais.");sleep(1)
 print("Esse é o seu terminal, conhecido como CCW (comand control world)");sleep(2)
-print("Você terá que digitar comandos especiais que serão explicados no decorrer do game, sem mais delongas. Digite help")
+print("Você terá que digitar comandos especiais que serão explicados no decorrer do game, sem mais delongas. Digite help");sleep(2)
 
 while True:
     ordem = input("Digite um comando:").upper().lstrip()

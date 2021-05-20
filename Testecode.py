@@ -1,2 +1,1 @@
-import os
-os.system("ping www.google.com")
+input("Pressione uma tecla para sair.")
