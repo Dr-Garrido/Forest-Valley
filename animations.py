@@ -1,7 +1,8 @@
 from time import sleep
-
-def animation(ani,vezes):
-    for x in range(0, vezes):
-        print(ani);sleep(1)
-
-animation("369",3)
+#Organizar tudo
+def organizar(x,y):
+    Listadict = [[x,y]]
+    separador = " "
+    for item in Listadict:
+        Letras = len(item[0])
+        print(f"{separador *5}{item[0]} {(28-Letras) * separador} {item[1]}");sleep(0.9) #28
